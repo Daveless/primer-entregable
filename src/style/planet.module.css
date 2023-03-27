@@ -1,0 +1,20 @@
+.planet{
+    position: absolute;
+    bottom: -50px;
+    width: 70%;
+    margin: auto;
+    z-index: 2;
+}
+@media (max-width: 1000px) {
+    .planet{
+        bottom: -70px;
+    }
+}
+
+@media (max-width: 558px) {
+  
+    .planet{
+        width: 95%;
+    }
+  }
+/*558*/
